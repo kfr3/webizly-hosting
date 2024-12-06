@@ -1,0 +1,11 @@
+name: 'My Custom Theme'
+type: theme
+description: 'A custom theme for my site with custom CSS.'
+core_version: 11.x
+libraries:
+  - custom_themes/global-styling
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'
+

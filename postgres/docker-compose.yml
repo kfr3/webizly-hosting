@@ -1,7 +1,7 @@
 services:
   postgres:
     build: .
-    container_name: postgres
+    container_name: yumis56/postgres:latest
     restart: always
     networks:
       - backend
