@@ -1,0 +1,37 @@
+.certified {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #4B8940;
+    flex-direction: column;
+}
+
+.certified h2 {
+    font-size: 2.5rem;
+    color: #D0D0D0;
+}
+
+.certified img {
+    height: auto; 
+    max-width: 100%; 
+}
+
+.certified-img-spacing {
+    display: flex;
+    align-items: center;
+}
+
+.certified .ng-logo {
+    width: 250px; 
+    margin-bottom: 25px;
+    margin-right: 40px;
+}
+
+.certified .history-logo {
+    width: 150px; 
+}
+
+.certified .logo:nth-child(2) img {
+    width: 150px;
+}
