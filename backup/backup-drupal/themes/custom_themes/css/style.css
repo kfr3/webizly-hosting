@@ -1,13 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,900;1,9..40,900&display=swap');
+
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     color: #fff;
-    background-color: #50AB50;
     line-height: 1.6;
+    background-image: url(images/ufo_background.jpg);
 }
+
 a {
     text-decoration: none;
     color: #fff;
+}
+
+.dm-sans-title {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto; /* Optional: Advanced font feature */
+    font-weight: 800; /* Bold weight for titles */
+    font-style: normal; /* Default: can be 'italic' if needed */
+}
+
+.dm-sans-text {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto; /* Optional: Advanced font feature */
+    font-weight: 200; /* Bold weight for titles */
+    font-style: normal; /* Default: can be 'italic' if needed */
+}
+
+.comfortaa-text {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /* Navbar */
@@ -34,56 +59,25 @@ a {
 .navbar ul li {
     font-size: 1rem;
 }
-/*
-.hero {
-    text-align: left;
-    padding: 50px 20px;
-}
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    float: left;
-}
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    float: left;
-}
-.hero .learn-more {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #9DC19D;
-    border: 1px, solid, black;
-    border-radius: 10px;
-    color: #000;
-    cursor: pointer;
-    float: left;
-}
-.hero img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 0px;
-    float: right;
-  }*/
 
 .hero {
-    padding: 50px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    background-color: #50AB50;
 }
 .hero-content {
     display: flex;
     align-items: center;
     gap: 30px; /* Space between text and image */
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 100%;
+    /*margin: 0 auto;*/
+    padding-top: 40px;
     flex-wrap: wrap; /* Ensures it adapts to smaller screens */
 }
 .hero-text {
     flex: 1;
+    margin-left: 50px;
 }
 .hero-text h1 {
     font-size: 2.5rem;
@@ -95,60 +89,60 @@ a {
     margin-bottom: 20px;
 }
 .hero-text .learn-more {
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-size: 1rem;
+    font-weight: bold;
     background-color: #9DC19D;
-    border: 1px, solid, black;;
+    border: none;
     border-radius: 15px;
     color: #000;
     cursor: pointer;
     justify-content: center;
+    float: center;
 }
 .hero-image {
     flex: 1;
     display: flex;
     justify-content: right;
     margin-right: 0;
-}
+    right: 0;
+} 
+
 .hero-image img {
     max-width: 100%;
-    height: auto;
+    height: 90%;
     border-radius: 0;
-    margin-right: 0px;
+    float: right;
 }
 
-/*
-.certified .logos {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-.certified .logos img {
-    width: 300px;
-    height: auto;
-}*/
 .certified {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     background-color: #4B8940;
+    flex-direction: column;
 }
 
 .certified h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 2.5rem;
     color: #D0D0D0;
 }
 
 .certified img {
     height: auto; 
     max-width: 100%; 
-    margin-top: 10px;
+}
+
+.certified-img-spacing {
+    display: flex;
+    align-items: center;
 }
 
 .certified .ng-logo {
     width: 250px; 
+    margin-bottom: 25px;
+    margin-right: 40px;
 }
 
 .certified .history-logo {
@@ -159,19 +153,16 @@ a {
     width: 150px;
 }
 
-
-
-
 .cta {
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px;
 }
 .cta h2 {
     font-size: 1.8rem;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: #D0D0D0;
 }
-
+/*
 .cta .picture {
     display: flex;
     justify-content: center;
@@ -182,9 +173,9 @@ a {
     width: 150px;
     height: auto;
 }
-
+*/
 .cta .signup {
-    padding: 20px 40px;
+    padding: 15px 30px;
     font-size: 1.25rem;
     background-color: #A3AD45;
     border: 1px, solid, black;
@@ -192,6 +183,7 @@ a {
     color: #000;
     cursor: pointer;
     font-family: Helvetica, sans-serif;
+    margin-bottom: 40px;
 }
 
 h1{
