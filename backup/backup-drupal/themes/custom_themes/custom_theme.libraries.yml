@@ -9,6 +9,7 @@ global-styling:
       css/components/certified.css: {}
       css/components/cta.css: {}
       css/components/signup.css: {}
+      css/components/dash.css: {}
     remote:
       type: external
       styles: 

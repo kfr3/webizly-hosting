@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    margin: 20px;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+/* Input fields */
+input {
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #8AAB85;
+    color: #000;
+    text-align: left;
+}
+
+/* DOB Fields */
+.dob-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dob-container input {
+    flex: 1;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.dob-container input:last-child {
+    margin-right: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.delete-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #a94442;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.delete-btn:hover {
+    background-color: #d9534f;
+}
+
+input::placeholder {
+    color: #555;
+}
