@@ -1,0 +1,20 @@
+.cta {
+    text-align: center;
+    padding: 20px;
+}
+.cta h2 {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    color: #D0D0D0;
+}
+.cta .signup {
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    background-color: #A3AD45;
+    border: 1px, solid, black;
+    border-radius: 15px;
+    color: #000;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 40px;
+}

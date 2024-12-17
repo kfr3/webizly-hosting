@@ -2,7 +2,12 @@ global-styling:
   version: 1.0
   css:
     theme:
-      css/style.css: {}
+      css/base/reset.css: {}
+      css/base/typography.css: {}
+      css/components/navbar.css: {}
+      css/components/hero.css: {}
+      css/components/certified.css: {}
+      css/components/cta.css: {}
     remote:
       type: external
       styles: 
