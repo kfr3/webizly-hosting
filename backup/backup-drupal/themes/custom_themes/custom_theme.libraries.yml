@@ -8,6 +8,7 @@ global-styling:
       css/components/hero.css: {}
       css/components/certified.css: {}
       css/components/cta.css: {}
+      css/components/signup.css: {}
     remote:
       type: external
       styles: 
